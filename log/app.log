@@ -1,0 +1,223 @@
+2019-04-12 14:38:17.526  INFO 10480 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 10480 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:38:17.533  INFO 10480 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:38:18.362  INFO 10480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:38:18.381  INFO 10480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:38:18.381  INFO 10480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:38:18.462  INFO 10480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:38:18.462  INFO 10480 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 901 ms
+2019-04-12 14:38:18.618  INFO 10480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:38:18.691  INFO 10480 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:38:18.756  INFO 10480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:38:18.758  INFO 10480 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.598 seconds (JVM running for 2.875)
+2019-04-12 14:38:26.789  INFO 10480 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:38:26.789  INFO 10480 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:38:26.792  INFO 10480 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-04-12 14:38:30.104  INFO 10480 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /127.0.0.1:64828
+2019-04-12 14:38:33.394  INFO 10480 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：xxxxz
+2019-04-12 14:38:50.986  INFO 10480 --- [http-nio-9999-exec-8] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49754
+2019-04-12 14:38:56.787  INFO 10480 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：adasd
+2019-04-12 14:39:01.157  INFO 10480 --- [http-nio-9999-exec-9] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49755
+2019-04-12 14:39:07.539  INFO 10480 --- [http-nio-9999-exec-1] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asdasd
+2019-04-12 14:39:11.450  INFO 10480 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49754 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:39:11.450  INFO 10480 --- [http-nio-9999-exec-2] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49755 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:39:17.702  INFO 10480 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : /127.0.0.1:64828 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:42:26.815  INFO 9752 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 9752 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:42:26.815  INFO 9752 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:42:27.615  INFO 9752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:42:27.625  INFO 9752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:42:27.625  INFO 9752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:42:27.709  INFO 9752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:42:27.709  INFO 9752 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 864 ms
+2019-04-12 14:42:27.859  INFO 9752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:42:27.919  INFO 9752 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:42:27.989  INFO 9752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:42:27.989  INFO 9752 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.504 seconds (JVM running for 2.205)
+2019-04-12 14:43:04.804  INFO 9752 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:43:04.804  INFO 9752 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:43:04.804  INFO 9752 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-04-12 14:43:08.364  INFO 9752 --- [http-nio-9999-exec-6] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65040
+2019-04-12 14:43:11.485  INFO 9752 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：aaa
+2019-04-12 14:43:11.735  INFO 9752 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：
+2019-04-12 14:43:12.925  INFO 9752 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：
+2019-04-12 14:44:05.305  INFO 7436 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 7436 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:44:05.305  INFO 7436 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:44:06.135  INFO 7436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:44:06.145  INFO 7436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:44:06.155  INFO 7436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:44:06.215  INFO 7436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:44:06.225  INFO 7436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 880 ms
+2019-04-12 14:44:06.355  INFO 7436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:44:06.425  INFO 7436 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:44:06.485  INFO 7436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:44:06.495  INFO 7436 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.64 seconds (JVM running for 2.426)
+2019-04-12 14:44:42.541  INFO 6748 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 6748 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:44:42.551  INFO 6748 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:44:43.461  INFO 6748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:44:43.471  INFO 6748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:44:43.481  INFO 6748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:44:43.571  INFO 6748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:44:43.571  INFO 6748 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1000 ms
+2019-04-12 14:44:43.741  INFO 6748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:44:43.822  INFO 6748 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:44:43.895  INFO 6748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:44:43.895  INFO 6748 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.664 seconds (JVM running for 2.507)
+2019-04-12 14:44:48.006  INFO 6748 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:44:48.006  INFO 6748 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:44:48.016  INFO 6748 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-04-12 14:44:49.636  INFO 6748 --- [http-nio-9999-exec-2] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65162
+2019-04-12 14:45:07.769  INFO 6748 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49794
+2019-04-12 14:45:07.769  INFO 6748 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49794 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:45:07.779 ERROR 6748 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 发生错误
+
+java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:425) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:309) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:250) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:191) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at com.cjf.demo.websocket.socket.WebSocket.sendMessageToUsers(WebSocket.java:84) ~[classes/:na]
+	at com.cjf.demo.websocket.socket.WebSocket.onOpen(WebSocket.java:46) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:65) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:64) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:133) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:880) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-04-12 14:45:51.240  INFO 6748 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49804
+2019-04-12 14:45:51.240  INFO 6748 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49804 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:45:51.242 ERROR 6748 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : 发生错误
+
+java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:425) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:309) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:250) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:191) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at com.cjf.demo.websocket.socket.WebSocket.sendMessageToUsers(WebSocket.java:84) ~[classes/:na]
+	at com.cjf.demo.websocket.socket.WebSocket.onOpen(WebSocket.java:46) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:65) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:64) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:133) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:880) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2019-04-12 14:46:14.933  INFO 5920 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 5920 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:46:14.933  INFO 5920 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:46:15.793  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:46:15.803  INFO 5920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:46:15.803  INFO 5920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:46:15.883  INFO 5920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:46:15.883  INFO 5920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 910 ms
+2019-04-12 14:46:16.033  INFO 5920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:46:16.103  INFO 5920 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:46:16.173  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:46:16.173  INFO 5920 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.55 seconds (JVM running for 2.268)
+2019-04-12 14:46:18.794  INFO 5920 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:46:18.794  INFO 5920 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:46:18.794  INFO 5920 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-04-12 14:46:23.605  INFO 5920 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65207
+2019-04-12 14:46:32.077  INFO 5920 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49810
+2019-04-12 14:46:32.077  INFO 5920 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49810 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:46:37.702  INFO 5920 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49811
+2019-04-12 14:46:50.820  INFO 5920 --- [http-nio-9999-exec-9] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asdas
+2019-04-12 14:47:14.572  INFO 5920 --- [http-nio-9999-exec-10] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65226
+2019-04-12 14:47:16.562  INFO 5920 --- [http-nio-9999-exec-1] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65229
+2019-04-12 14:47:16.564  INFO 5920 --- [http-nio-9999-exec-1] com.cjf.demo.websocket.socket.WebSocket  : /172.16.32.184:65229 主动关闭了连接，当前在线人数为:1
+2019-04-12 14:47:37.531  INFO 5920 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65239
+2019-04-12 14:47:42.605  INFO 5920 --- [http-nio-9999-exec-6] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：aaa
+2019-04-12 14:47:46.556  INFO 5920 --- [http-nio-9999-exec-7] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asa
+2019-04-12 14:47:50.797  INFO 5920 --- [http-nio-9999-exec-8] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65245
+2019-04-12 14:47:50.797  INFO 5920 --- [http-nio-9999-exec-8] com.cjf.demo.websocket.socket.WebSocket  : /172.16.32.184:65245 主动关闭了连接，当前在线人数为:1
+2019-04-12 14:48:04.141  INFO 5920 --- [http-nio-9999-exec-10] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：xzxzx
+2019-04-12 14:48:42.452  INFO 13668 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 13668 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:48:42.455  INFO 13668 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:48:43.254  INFO 13668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:48:43.269  INFO 13668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:48:43.269  INFO 13668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:48:43.340  INFO 13668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:48:43.340  INFO 13668 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 832 ms
+2019-04-12 14:48:43.485  INFO 13668 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:48:43.556  INFO 13668 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:48:43.624  INFO 13668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:48:43.629  INFO 13668 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.504 seconds (JVM running for 2.316)
+2019-04-12 14:48:55.165  INFO 13668 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:48:55.165  INFO 13668 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:48:55.165  INFO 13668 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-04-12 14:48:56.995  INFO 13668 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65290
+2019-04-12 14:49:44.236  INFO 12536 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 12536 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:49:44.239  INFO 12536 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:49:45.145  INFO 12536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:49:45.161  INFO 12536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:49:45.161  INFO 12536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:49:45.235  INFO 12536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:49:45.235  INFO 12536 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 964 ms
+2019-04-12 14:49:45.462  INFO 12536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:49:45.569  INFO 12536 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:49:45.648  INFO 12536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:49:45.658  INFO 12536 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.748 seconds (JVM running for 2.618)
+2019-04-12 14:49:48.708  INFO 12536 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:49:48.708  INFO 12536 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:49:48.711  INFO 12536 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2019-04-12 14:49:50.600  INFO 12536 --- [http-nio-9999-exec-2] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65346
+2019-04-12 14:49:59.214  INFO 12536 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asdas
+2019-04-12 14:50:05.052  INFO 12536 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：sadasdasa
+2019-04-12 14:50:37.549  INFO 12536 --- [http-nio-9999-exec-6] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49837
+2019-04-12 14:50:37.549  INFO 12536 --- [http-nio-9999-exec-6] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49837 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:50:41.750  INFO 12536 --- [http-nio-9999-exec-8] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asdas
+2019-04-12 14:52:13.119  INFO 12736 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 12736 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:52:13.119  INFO 12736 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:52:13.899  INFO 12736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:52:13.909  INFO 12736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:52:13.909  INFO 12736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:52:13.989  INFO 12736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:52:13.989  INFO 12736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 840 ms
+2019-04-12 14:52:14.159  INFO 12736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:52:14.239  INFO 12736 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:52:14.314  INFO 12736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:52:14.314  INFO 12736 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.555 seconds (JVM running for 2.306)
+2019-04-12 14:52:16.154  INFO 12736 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:52:16.154  INFO 12736 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:52:16.154  INFO 12736 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-04-12 14:52:19.395  INFO 12736 --- [http-nio-9999-exec-2] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65410
+2019-04-12 14:52:26.085  INFO 12736 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49852
+2019-04-12 14:52:26.085  INFO 12736 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49852 主动关闭了连接，当前在线人数为:0
+2019-04-12 14:53:49.421  INFO 4332 --- [main] c.c.demo.websocket.WebsocketApplication  : Starting WebsocketApplication on DESKTOP-DF7C7E6 with PID 4332 (D:\ideaProject2\sgsg-master\websocket\target\classes started by admin in D:\ideaProject2\sgsg-master\websocket)
+2019-04-12 14:53:49.423  INFO 4332 --- [main] c.c.demo.websocket.WebsocketApplication  : No active profile set, falling back to default profiles: default
+2019-04-12 14:53:50.335  INFO 4332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2019-04-12 14:53:50.345  INFO 4332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-12 14:53:50.345  INFO 4332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-12 14:53:50.425  INFO 4332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-12 14:53:50.425  INFO 4332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 952 ms
+2019-04-12 14:53:50.575  INFO 4332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 14:53:50.635  INFO 4332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [templates/index.html]
+2019-04-12 14:53:50.705  INFO 4332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2019-04-12 14:53:50.705  INFO 4332 --- [main] c.c.demo.websocket.WebsocketApplication  : Started WebsocketApplication in 1.633 seconds (JVM running for 2.41)
+2019-04-12 14:53:51.765  INFO 4332 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-12 14:53:51.765  INFO 4332 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-12 14:53:51.765  INFO 4332 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-04-12 14:53:55.706  INFO 4332 --- [http-nio-9999-exec-2] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.32.184:65465
+2019-04-12 14:53:58.157  INFO 4332 --- [http-nio-9999-exec-5] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49856
+2019-04-12 14:54:05.908  INFO 4332 --- [http-nio-9999-exec-6] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：aaa
+2019-04-12 14:54:08.359  INFO 4332 --- [http-nio-9999-exec-3] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：asdasd
+2019-04-12 14:54:11.909  INFO 4332 --- [http-nio-9999-exec-4] com.cjf.demo.websocket.socket.WebSocket  : 一个新的连接建立了 /172.16.41.111:49858
+2019-04-12 14:54:14.250  INFO 4332 --- [http-nio-9999-exec-8] com.cjf.demo.websocket.socket.WebSocket  : 服务器收到了来自客户端的消息：dzxcz
+2019-04-12 14:54:15.610  INFO 4332 --- [http-nio-9999-exec-9] com.cjf.demo.websocket.socket.WebSocket  : /172.16.41.111:49858 主动关闭了连接，当前在线人数为:1
+2019-04-12 14:54:18.570  INFO 4332 --- [http-nio-9999-exec-10] com.cjf.demo.websocket.socket.WebSocket  : /172.16.32.184:65465 主动关闭了连接，当前在线人数为:0

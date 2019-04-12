@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>网络聊天室</title>
+    <script typet="text/javascript" src="http://172.16.51.64/scripts/jquery/jquery-1.7.1.js"></script>
+    <script type="text/javascript">
+        var ws = null;
+        var user;
+        function SendMessage() {
+            if (ws == null) {
+                alert("请先进行连接！");
+                return;
+            }
+            var sendMsg = document.getElementById("msgText");
+            if(sendMsg.value==null||sendMsg.value==""){
+                alert("消息不能为空！");
+                return;}
+            ws.send(sendMsg.value);
+            sendMsg.value = "";
+        }
+
+        function RecMessage(msg) {
+            var messageCenter = document.getElementById("messageText");
+            messageCenter.value += "\n" + msg;
+        }
+
+        function WebSocketTest() {
+            var username = document.getElementById("name_input").value;
+            if(username==null||username==""){
+                alert("用户名不能为空！");
+                return;}
+            user = username;
+            if(ws!=null){
+                alert("您已连接上服务器，请勿重复连接！");
+                return;
+            }
+            if ("WebSocket" in window) {
+                // 打开一个 web socket
+                RecMessage("正在与服务器建立连接...");
+
+                ws = new WebSocket("ws://"+window.location.host+"/websocket/" + username);
+                ws.onopen = function () {
+                    RecMessage("已连接上服务器...");
+                };
+                ws.onmessage = function (evt) {
+                    var received_msg = evt.data;
+                    RecMessage(received_msg);
+                };
+                ws.onerror = function (ev) {
+                    RecMessage("系统发生异常！");
+                }
+                ws.onclose = function (ev) {
+                    alert("连接已关闭，服务器拒绝了您的连接，可能该用户名已经存在！");
+                    ws=null;
+                    RecMessage("已断开服务器连接...");
+                }
+            }
+            else {
+                // 浏览器不支持 WebSocket
+                alert("您的浏览器不支持 WebSocket!");
+            }
+        }
+    </script>
+
+</head>
+<body>
+<div id="sse">
+    <p><a>您的名字：</a> <input type="text" id="name_input"/> <input type="button" onclick="WebSocketTest()" value="连接"/></p>
+    <textarea id="messageText" style="height: 300px;width: 800px;font-size: 15px" class="text"></textarea>
+    <br>
+    <br>
+    消息：<input type="text" style="width: 200px" id="msgText"/> <input type="button" onclick="SendMessage()" value="发送"/>
+</div>
+
+</body>
+</html>
